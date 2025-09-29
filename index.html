@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Grid</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header class="flex flex-col md:flex-row items-center justify-between mb-8 px-4 max-w-7xl mx-auto">
+  <div class="text-center md:text-left mb-4 md:mb-0">
+    <h1 class="text-3xl font-bold text-gray-800">Our Featured Products</h1>
+    <p class="text-gray-600">Explore our exclusive collection and find your perfect match.</p>
+  </div>
+  <div class="space-x-4">
+    <button class="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-600 hover:text-white transition">Sign Up</button>
+    <button class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition">Log In</button>
+  </div>
+</header>
+<body class="bg-gray-50 p-6">
+  <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/on/demandware.static/-/Sites-master_dior/default/dw7eb0e727/Y0996347/Y0996347_C099600763_E01_GHC.jpg" alt="USB Foot Heating Insoles" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Miss Dior: Eau de Parfum</h3>
+      <div class="mt-2 text-red-600 font-bold">12$ <span class="text-gray-400 line-through text-xs">149$</span></div>
+      <div class="text-gray-500 text-xs">3.7k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(138)</span></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwbc4f5ba5/Y0996214/Y0996214_C021400001_E01_GHC.jpg?sw=800" alt="Knife Sharpener" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Dior Addict Lip Glow Balm</h3>
+      <div class="mt-2 text-red-600 font-bold">3.99$ <span class="text-gray-400 line-through text-xs">42$</span></div>
+      <div class="text-gray-500 text-xs">100k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(44,433)</span></div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/on/demandware.static/-/Sites-master_dior/default/dw97a87a6f/Y0373000/Y0373000_C037300004_E01_GHC.jpg" alt="Shower Head" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Rosy Glow Powder Blush</h3>
+      <div class="mt-2 text-red-600 font-bold">3.99$ <span class="text-gray-400 line-through text-xs">42$</span></div>
+      <div class="text-gray-500 text-xs">100k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(11,342)</span></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/on/demandware.static/-/Sites-master_dior/default/dwb03c15bb/Y0000104/Y0000104_E000000579_E01_GHC.jpg" alt="Automatic Belt" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Glow Maximizer Face Palette</h3>
+      <div class="mt-2 text-red-600 font-bold">5.25$ <span class="text-gray-400 line-through text-xs">54$</span></div>
+      <div class="text-gray-500 text-xs">2k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(101)</span></div>
+    </div>
+
+
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/on/demandware.static/-/Sites-master_dior/default/dwbe782f45/Y0996398/Y0996398_C023600020_E01_GHC.jpg" alt="Dumpling Box" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Hydrating Face Foundation</h3>
+      <div class="mt-2 text-red-600 font-bold">1.99$ <span class="text-gray-400 line-through text-xs">60$</span></div>
+      <div class="text-gray-500 text-xs">1.9k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(147)</span></div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw99738be8/Y0000010/Y0000010_E000000094_E01_GHC.jpg?sw=800" alt="Brush Heads" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Forever Glow Luminizer Highlighter</h3>
+      <div class="mt-2 text-red-600 font-bold">4$ <span class="text-gray-400 line-through text-xs">52$</span></div>
+      <div class="text-gray-500 text-xs">100k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(7,291)</span></div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dwf661b05a/images/beauty/07-NAVIGATION/2025/08_August/Y0000002_E000000243_E01_GHC.jpg?sw=800" alt="Headlight Restorer" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Diorshow Iconic Overcurl Mascara</h3>
+      <div class="mt-2 text-red-600 font-bold">2.99$ <span class="text-gray-400 line-through text-xs">35$</span></div>
+      <div class="text-gray-500 text-xs">80k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(5,221)</span></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw990bb47a/Y0179010/Y0179010_C017900200_E01_GHC.jpg?sw=800" alt="Golf Trainer" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Contour No-Transfer Lip Liner Pencil</h3>
+      <div class="mt-2 text-red-600 font-bold">2.99$ <span class="text-gray-400 line-through text-xs">35$</span></div>
+      <div class="text-gray-500 text-xs">82k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(2,106)</span></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw4219543c/Y0996058/Y0996058_C099600058_E01_GHC.jpg?sw=800" alt="Absorbent Mat" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Le Baume Revitalizing Multi-Use Balm</h3>
+      <div class="mt-2 text-red-600 font-bold">1.99$ <span class="text-gray-400 line-through text-xs">63$</span></div>
+      <div class="text-gray-500 text-xs">100k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(11,167)</span></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/on/demandware.static/-/Sites-master_dior/default/dw50eba8ff/Y0615246/Y0615246_F361524609_E01_GHC.jpg" alt="Winter Set" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">J'adore Eau de Parfum</h3>
+      <div class="mt-2 text-red-600 font-bold">2$<span class="text-gray-400 line-through text-xs">225$</span></div>
+      <div class="text-gray-500 text-xs">5.3k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(347)</span></div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwea862b22/Y0997082/Y0997082_E01_GHC.jpg?sw=800" alt="Massage Mat" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Le Baume Balm</h3>
+      <div class="mt-2 text-red-600 font-bold">3.99$ <span class="text-gray-400 line-through text-xs">32$</span></div>
+      <div class="text-gray-500 text-xs">12k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(512)</span></div>
+    </div>
+    <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
+      <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw41ea0d3f/Y0381009/Y0381009_E000000753_E01_GHC.jpg?sw=800" alt="Heated Socks" class="rounded-lg mb-3">
+      <h3 class="text-sm font-medium">Nail Glow Polish</h3>
+      <div class="mt-2 text-red-600 font-bold">4.99$ <span class="text-gray-400 line-through text-xs">34$</span></div>
+      <div class="text-gray-500 text-xs">8k+ sold</div>
+      <div class="flex items-center text-yellow-400 text-sm"> <span class="ml-1 text-gray-500 text-xs">(289)</span></div>
+    </div>
+
+  </div>
+</body>
+<!-- Modal structure -->
+<div id="productModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+  <div class="bg-white rounded-2xl shadow-lg max-w-3xl w-full mx-4 p-6 relative">
+    <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl font-bold">&times;</button>
+    <div class="flex flex-col md:flex-row gap-6">
+      <img id="modalImage" src="" alt="Product Image" class="rounded-lg max-w-xs mx-auto md:mx-0">
+      <div class="flex flex-col justify-between">
+        <div>
+          <h2 id="modalTitle" class="text-xl font-semibold mb-2"></h2>
+          <div id="modalPrice" class="text-red-600 font-bold text-lg mb-2"></div>
+          <div id="modalOldPrice" class="text-gray-400 line-through text-sm mb-2"></div>
+          <div id="modalSold" class="text-gray-500 text-xs mb-2"></div>
+          <div id="modalReviews" class="flex items-center text-yellow-400 text-sm mb-4"></div>
+          <p id="modalDescription" class="text-gray-700 text-sm"></p>
+        </div>
+        <button id="buyButton" class="mt-4 bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById('productModal');
+  const modalImage = document.getElementById('modalImage');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalPrice = document.getElementById('modalPrice');
+  const modalOldPrice = document.getElementById('modalOldPrice');
+  const modalSold = document.getElementById('modalSold');
+  const modalReviews = document.getElementById('modalReviews');
+  const modalDescription = document.getElementById('modalDescription');
+  const closeModalBtn = document.getElementById('closeModal');
+  const buyButton = document.getElementById('buyButton');
+
+  // A simple description placeholder since you don't have it in your data
+  const defaultDescription = "hurgelt unegui";
+
+  // Grab all product cards
+  const productCards = document.querySelectorAll('.bg-white.rounded-2xl');
+
+  productCards.forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', () => {
+      // Populate modal with clicked product info
+      modalImage.src = card.querySelector('img').src;
+      modalImage.alt = card.querySelector('img').alt;
+      modalTitle.textContent = card.querySelector('h3').textContent;
+      modalPrice.textContent = card.querySelector('.text-red-600.font-bold').childNodes[0].textContent.trim();
+      modalOldPrice.textContent = card.querySelector('.text-gray-400.line-through').textContent;
+      modalSold.textContent = card.querySelector('.text-gray-500.text-xs').textContent;
+      modalReviews.innerHTML = card.querySelector('.flex.items-center.text-yellow-400').innerHTML;
+      modalDescription.textContent = defaultDescription;
+
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden'; // prevent background scroll
+    });
+  });
+
+  closeModalBtn.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  function closeModal() {
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  buyButton.addEventListener('click', () => {
+    alert('Proceeding to payment gateway (placeholder)');
+    // Here you can redirect or integrate payment flow
+  });
+</script>
+
+</html>
